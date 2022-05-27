@@ -1,0 +1,53 @@
+body{
+    /*Margin es margen externa
+      padding es relleno o margen interna*/
+    margin: 0;
+    padding: 0;
+    background: url("../img/champions.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+    
+}
+
+
+h1{
+    color: #000000;
+    font-size: 45px;
+    font-family: 'Tiro Bangla', serif;
+}
+
+h2{
+    color: #ffffff;
+    /* font size es tamaño de fuente */
+    font-size: 35px;
+    margin: 0;
+}
+
+p{
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+button{
+    padding: 10px 30px;
+    margin: 12px;
+    background: #000000;
+    color: #ffffff;
+    border: 3px;
+    border-color: #ffffff;
+    cursor: pointer;
+    font-size: 22px;
+    transition: .5s;
+    font-family: 'Spline Sans Mono', monospace;
+}
+/* hover es un estado de los elementos que se activa al pasar el cursor sobre estos*/
+button:hover{
+    background: #00ffff;
+    color: #000000;
+    border: 3px solid transparent;
+    border-color: #000000;
+}
